@@ -1,0 +1,16 @@
+ <% include header.ejs %>
+
+  <h1><p>Welcome to Fritter.</p></h1>
+ <h2><p>Written and designed by Maximilian Maybury</p></h2>
+<div class="row">
+   <div class="login-box col-md-4 col-md-offset-4">
+
+	  	<div class="input-wrap row"> <label class="col-md-4">Username:</label> <input class ="col-md-5" id="username" /></div>
+	  	<div class="input-wrap row"> <label class="col-md-4">Password:</label><input class="col-md-5" id="password" /></div>
+	   	<button class="btn fritter-button-lg">Sign in</button>
+	  	<div class="link-wrap row">Not a member? <a onclick ="HomePage.createAccount()"/>Create an account</a></div>
+	  	
+	</div>
+</div>
+ 
+<%include footer.ejs %>
