@@ -1,0 +1,69 @@
+.fritter-button-small{
+	background-color:#8DE2FF;
+	border: 1px solid #888888;
+	border-radius: 3px;
+
+}
+.fritter-dashboard{
+	background-color:#CCFFFF;
+	border: 1px solid #888888;
+	border-radius: 12px;
+}
+.freet-box{
+	margin-top:20px;
+	height:25px;
+	font-size:16px;
+}
+.user-freets-box{
+	margin-top:15px;
+	padding: 10px;
+	padding-top:0;
+	border-top: 1px solid #888888;
+}
+.user-freets-box h6{
+	text-align:left;
+	color:#777777;
+}
+.freetbox {
+	border:1px solid #888888;
+	background-color: #FFFFFF;
+	border-radius:7px;
+	margin:10px;
+}
+.freet-text{
+	margin:10px 0;
+	text-align:left;
+}
+.freet-date{ 
+	color:#888888;
+	margin: 10px 0;
+	text-align:right;
+	padding-left:0;
+}
+.freet-options{
+	padding:0;
+	margin:7px 0;
+	color:#AAAAAA;
+}
+.freet-options i{
+	padding-left:10px;
+}
+.freet-options i:hover{
+	color:#000000;
+}
+.freet-username{
+	text-align:left;
+	color:#3385FF;
+}
+.freet-div-edit{
+	margin-top:8px;
+}
+.freet-edit-btn{
+	margin-left:8px;
+}
+.fritter-button-md{
+	background-color:#8DE2FF;
+	margin-top:15px;
+	padding:3px 6px;
+	border-color:#888888;
+}

@@ -1,2 +1,30 @@
 <% include header.ejs %>
+<script src="/javascripts/HomePage.js"></script>
+<script src="/javascripts/moment.js"></script>
+<link rel="stylesheet" href="stylesheets/HomePage.css" />
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body class='fritter-page'>
+	<div class='row'>
+		<div class='col-md-3 col-md-offset-9'>
+			<p><label>Welcome, <%=Username%>. Not you?</label>
+			<button class='fritter-button-small btn-xs' onclick="HomePage.Logout();">Log Out</button></p>
+		</div>
+	</div>
+	<div class='row'>
+		<div class='col-md-8 col-md-offset-2 fritter-dashboard'>
+			<div class='row' id='freetForm'>
+				<input class='freet-box col-md-7 col-md-offset-2' id="makeFreetBox" type='text' placeholder="freet away..." />
+				<button class='btn fritter-button-md col-md-1 col-md-offset-1' onclick="HomePage.SubmitFreet()">Freet</button>
+			</div>
+		<div class='row'>
+			<div class='col-md-10 col-md-offset-1 user-freets-box'>
+				<h6>Recent Freets:</h6>
+				<div class='row' id='freetsContainer'>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
 <% include footer.ejs %>
